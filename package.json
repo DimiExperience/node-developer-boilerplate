@@ -1,17 +1,12 @@
 {
   "name": "node-developer-boilerplate",
   "version": "0.6.0",
-  "description": "Boilerplate for ES6+ Node.js Developers",
-  "author": "Maik Ellerbrock",
+  "description": "Integra Demo App",
+  "author": "David Berger",
   "main": "dist/index.js",
-  "license": "MIT",
   "repository": {
     "url": "git@github.com:ellerbrock/node-developer-boilerplate.git",
     "type": "git"
-  },
-  "homepage": "https://ellerbrock.github.io/node-developer-boilerplate",
-  "bugs": {
-    "url": "https://github.com/ellerbrock/node-developer-boilerplate/issues"
   },
   "scripts": {
     "benchmark": "babel-node benchmark",
@@ -133,5 +128,13 @@
     "standard-version": "^4.0.0",
     "travis-lint": "1.0.0",
     "yarn": "0.21.3"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "body-parser": "^1.17.x",
+    "cloudant": "^1.7.x",
+    "dotenv": "^4.0.0"
   }
 }
